@@ -1,4 +1,9 @@
-# plane_segmentation_tool
+# plane_segmentation_tool 
+## 🌀 Demo
+
+![Plane Segmentation Demo](assets/fullscene.gif)
+
+![Plane Segmentation Demo2](assets/stable_pc.gif)
 
 A high-precision, modular pipeline for extracting stable planar regions from noisy point clouds — built for robotics applications like pose estimation, box picking, and real-time scene understanding.
 
