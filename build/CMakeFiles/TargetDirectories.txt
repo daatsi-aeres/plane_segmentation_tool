@@ -1,3 +1,0 @@
-/home/daatsi-aeres/sid_repos/plane_segmentation_tool/build/CMakeFiles/plane_segmenter.dir
-/home/daatsi-aeres/sid_repos/plane_segmentation_tool/build/CMakeFiles/edit_cache.dir
-/home/daatsi-aeres/sid_repos/plane_segmentation_tool/build/CMakeFiles/rebuild_cache.dir
