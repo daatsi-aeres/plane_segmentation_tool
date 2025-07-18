@@ -5,17 +5,13 @@
 
 ![Plane Segmentation Demo2](assets/stable_pc.gif)
 
-A high-precision, modular pipeline for extracting stable planar regions from noisy point clouds — built for robotics applications like pose estimation, box picking, and real-time scene understanding.
+
 
 ---
 
-## 🚀 Motivation
+## 🚀 What it is
 
-Our warehouse robots needed sub-millimeter accurate pose estimation of packages in highly dynamic and cluttered environments.  
-Fiducial markers like barcodes or ArUco tags often degraded, shifted, or required human effort to place — not ideal for autonomy at scale.
-
-So, I built this robust **plane segmentation pipeline** to detect and track object planes purely from raw point clouds, without any markers.  
-This became a critical module in our larger robotic manipulation stack.
+A high-precision, modular pipeline for extracting stable planar regions from noisy point clouds — built for robotics applications like pose estimation, box picking, and real-time scene understanding.
 
 ---
 
