@@ -1,3 +1,5 @@
+[Related medium article](https://medium.com/@siddharthramasushil/building-a-robust-plane-segmentation-pipeline-for-3d-pose-estimation-in-robotics-cb89243492fb)
+
 # plane_segmentation_tool 
 ## 🌀 Demo
 
