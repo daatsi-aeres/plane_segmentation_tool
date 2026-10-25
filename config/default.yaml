@@ -1,0 +1,41 @@
+# Default parameters for segment_plane / benchmark (units: meters).
+# A stage is skipped when its size parameter is <= 0.
+
+# Region of interest (axis-aligned box in the cloud frame); disabled while
+# min >= max. Cropping to the pick area is the biggest speedup on full frames.
+roi_min_x: 0.0
+roi_min_y: 0.0
+roi_min_z: 0.0
+roi_max_x: 0.0
+roi_max_y: 0.0
+roi_max_z: 0.0
+
+# Pre-filtering
+voxel_leaf_size: 0.010
+sor_mean_k: 20
+sor_stddev_mul: 1.0
+
+# Coarse plane hypothesis
+ransac_threshold_coarse: 0.010
+ransac_max_iterations: 1000
+
+# Orientation prior: accept only planes within max_normal_angle_deg of this
+# axis (either sign). All zeros disables it. Top-down camera: 0, 0, 1.
+expected_normal_x: 0.0
+expected_normal_y: 0.0
+expected_normal_z: 0.0
+max_normal_angle_deg: 45.0
+
+# Largest connected patch of the coarse plane
+cluster_tolerance: 0.015
+min_cluster_size: 100
+
+# Refinement
+mls_radius: 0.020
+ransac_threshold_fine: 0.004
+min_plane_inliers: 100
+
+# Sensor origin in the cloud frame (the normal is oriented toward it)
+viewpoint_x: 0.0
+viewpoint_y: 0.0
+viewpoint_z: 0.0
